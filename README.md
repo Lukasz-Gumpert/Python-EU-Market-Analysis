@@ -1,7 +1,7 @@
 <p align="left">
-  <img src="SQL Project\assets\image-1.png" width="150" alt='python'/>
-  <img src="SQL Project\assets\image-2.png" width="150" alt='seaborn'/>
-  <img src="SQL Project\assets\image-3.png" width="150" alt='matplotlib'/>
+  <img src="Python-EU-Market-Analysis\assets\image-1.png" width="150" alt='python'/>
+  <img src="Python-EU-Market-Analysis\assets\image-2.png" width="150" alt='seaborn'/>
+  <img src="Python-EU-Market-Analysis\assets\image-3.png" width="150" alt='matplotlib'/>
 </p>
 
 # Python-EU-Market-Analysis
