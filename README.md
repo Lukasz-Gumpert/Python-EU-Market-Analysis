@@ -5,7 +5,7 @@
 </p>
 
 # Python-EU-Market-Analysis
-Python-EU-Market-Analysis is a data analysis project focused on exploring the data job market across the European Union using Python. The project leverages libraries such as pandas, seaborn, and matplotlib to clean data, uncover trends, and visualize insights about demand, skills, and salaries in the EU tech sector.
+Python-Europe-Market-Analysis is a data analysis project focused on exploring the data job market across the Europe using Python. The project leverages libraries such as pandas, seaborn, and matplotlib to clean data, uncover trends, and visualize insights about demand, skills, and salaries in the EU tech sector.
 
 # Technologies & Tools Utilized:
 
@@ -58,7 +58,6 @@ eu_list = [
     "United Kingdom", "Italy"
 ]
 
-
 df_eu = df.copy()
 df_eu = df_eu[df_eu['job_location'].isin(eu_list)]
 ```
@@ -67,22 +66,52 @@ df_eu = df_eu[df_eu['job_location'].isin(eu_list)]
 Each Jupyter Notebook in this repository is designed with a clear analytical purpose. Every file answers one specific research question related to the European Data Analyst job market. By structuring the analysis into focused, question-driven
 notebooks, the results become easier to interpret, compare, and reuse in future work.
 
-## Research Focus: Market Dynamics & Key Players (01 - EDA.ipynb)
+## Market Dynamics & Key Players (01 - EDA.ipynb)
 
 The primary objective of this specific analysis is to perform an Exploratory Data Analysis (EDA) to understand the current landscape of the European data job market. By leveraging the cleaned dataset, this section aims to answer critical questions regarding job distribution and employer dominance within the EU.
 
 ### Job Distribution by Country: 
 Identifying which European nations offer the highest volume of opportunities for data professionals.
 
-ZDJECIE
+<img src="Python-EU-Market-Analysis\assets\01_Top_10_eu_countries.png" alt='EU countries with most data job postings'>
 
+* Market Leadership: The UK, France, and Italy dominate the European market, with the UK leading significantly at nearly 2,000 job postings.
 
-*Market Dominance: The bar chart reveals that a significant majority of job postings are concentrated in a few major economies (such as France, Germany, and the United Kingdom), which act as the primary engines for the data job market in Europe.
+* Regional Demand Disparity: There is a sharp decline in volume after the top three, with mid-tier markets like Spain and Germany offering roughly 50-60% fewer opportunities.
 
-*Emerging Hubs: Beyond the top leaders, the chart shows substantial activity in countries like Poland, Spain, and the Netherlands, indicating a growing demand for data professionals in Central and Western Europe.
+* Tech Hub Density: While smaller nations like Luxembourg and the Netherlands have lower absolute counts (~500), they show high demand relative to their market size.
 
-*Regional Fragmentation: While the top 5-10 countries represent the bulk of the volume, the "long tail" of the chart highlights that many other European nations have a much smaller, more fragmented job market.
+## Benefits and Requirements
+Next, I explored key job requirements and benefits for Data Analyst roles using pie chart visualizations to identify industry standards.
 
-Top Employers: Identifying the most active companies currently hiring in the European market to highlight key industry players.
+<img src="Python-EU-Market-Analysis\assets\02_Requirement_exploration.png" alt='Benefits chart'>
 
-Job Roles and Requirements: Evaluating the prevalence of different job titles (e.g., Data Analyst, Data Engineer) and the frequency of degree requirements in postings.
+* Dominance of Remote Work: Remote flexibility is nearly universal in the field, with 91.1% of job postings confirming that remote work is possible.
+
+* Education Requirements: A university degree remains a significant barrier to entry, as it is required by 69.4% of employers.
+
+* Standardized Benefits: Health insurance is a highly consistent offering across the market, included in 89.0% of the analyzed job descriptions.
+
+### Top Employers: 
+Lastly identifying the most active companies currently hiring in the European market to highlight key industry players.
+
+<img src="Python-EU-Market-Analysis\assets\03_Top_10_companies.png" alt='Benefits chart'>
+
+* Dominance of "Confidenziale": The largest share of postings comes from "Confidenziale" (over 500 listings), which typically represents confidential recruitment agencies masking client identities.
+
+* Recruitment Agency Presence: Professional staffing firms like JobLeads GmbH, Hays, and Randstad feature prominently, indicating that a significant portion of the market is managed by third-party recruiters.
+
+* Key Corporate Employers: Major industry players such as Allegro, Banco Santander, and SAFRAN emerge as the top direct corporate employers actively seeking data talent.
+
+## Technical Skill Requirements (02 - Skills_Count.ipynb)
+
+Next, I analyzed the most frequently requested skills for three core data roles to identify the essential technical competencies in the current market.
+
+<img src="Python-EU-Market-Analysis\assets\04_Skill_requested.png" alt='Benefits chart'>
+
+* Universal Importance of SQL and Python: SQL is a foundational requirement across all roles, peaking at 56% for Data Engineers, while Python is the most critical skill for Data Scientists at 60%.
+
+* Distinct Analyst Toolkit: For Data Analysts, the stack is uniquely characterized by a blend of SQL (43%) and visualization or spreadsheet tools like Excel (30%) and Power BI (23%).
+
+* Cloud and Infrastructure Focus: Data Engineering roles show a much higher demand for cloud platforms and big data tools, specifically Azure (35%), AWS (28%), and Spark (27%).
+
