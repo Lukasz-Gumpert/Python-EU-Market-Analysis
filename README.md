@@ -347,7 +347,7 @@ plt.show()
 
 * __Strategic Specialization:__ For those seeking the highest possible compensation, specialized engineering and cloud skills like SVN, PyTorch, and TensorFlow can push salaries toward the $175k–$400k range, though they are less frequent in general analyst roles.
 
-## Final Project Reflections:
+# Final Project Reflections:
 As a concluding analysis, I have synthesized my technical growth and market observations to summarize the impact of this project on my development as a Data Analyst.
 
 ## What I Learned:
