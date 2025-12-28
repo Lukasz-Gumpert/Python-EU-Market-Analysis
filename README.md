@@ -66,7 +66,7 @@ df_eu = df_eu[df_eu['job_location'].isin(eu_list)]
 Each Jupyter Notebook in this repository is designed with a clear analytical purpose. Every file answers one specific research question related to the European Data Analyst job market. By structuring the analysis into focused, question-driven
 notebooks, the results become easier to interpret, compare, and reuse in future work.
 
-## Research Focus: Market Dynamics & Key Players (01 - EDA.ipynb)
+## Market Dynamics & Key Players (01 - EDA.ipynb)
 
 The primary objective of this specific analysis is to perform an Exploratory Data Analysis (EDA) to understand the current landscape of the European data job market. By leveraging the cleaned dataset, this section aims to answer critical questions regarding job distribution and employer dominance within the EU.
 
@@ -102,4 +102,16 @@ Lastly identifying the most active companies currently hiring in the European ma
 * Recruitment Agency Presence: Professional staffing firms like JobLeads GmbH, Hays, and Randstad feature prominently, indicating that a significant portion of the market is managed by third-party recruiters.
 
 * Key Corporate Employers: Major industry players such as Allegro, Banco Santander, and SAFRAN emerge as the top direct corporate employers actively seeking data talent.
+
+## Technical Skill Requirements (02 - Skills_Count.ipynb)
+
+Next, I analyzed the most frequently requested skills for three core data roles to identify the essential technical competencies in the current market.
+
+<img src="Python-EU-Market-Analysis\assets\04_Skill_requested.png" alt='Benefits chart'>
+
+* Universal Importance of SQL and Python: SQL is a foundational requirement across all roles, peaking at 56% for Data Engineers, while Python is the most critical skill for Data Scientists at 60%.
+
+* Distinct Analyst Toolkit: For Data Analysts, the stack is uniquely characterized by a blend of SQL (43%) and visualization or spreadsheet tools like Excel (30%) and Power BI (23%).
+
+* Cloud and Infrastructure Focus: Data Engineering roles show a much higher demand for cloud platforms and big data tools, specifically Azure (35%), AWS (28%), and Spark (27%).
 
