@@ -131,13 +131,21 @@ In this part I analyzed the most frequently requested skills for three core data
 
 ## Salary Distribution Analysis:
 
-Finally, I analyzed the yearly salary distribution across different data roles in Europe to understand the earning potential within each specialization.
+Finally, I analyzed the yearly salary distribution across different data roles in Europe to understand the earning potential within each specialization. Additionaly, I focued on relationships between specific technical skills and their impact on compensation to identify the most lucrative paths for Data Analysts.
 
-<img src="Python-EU-Market-Analysis\assets\06_data_salary_distribution" alt='Salary distribution'>
+<img src="Python-EU-Market-Analysis\assets\06_data_salary_distribution.png" alt='Salary distribution'>
 
 * Highest Median Salary: Data Engineers command the highest median yearly salary in Europe, followed closely by Data Scientists, both of which significantly outperform the Data Analyst role.
 
 * Significant Salary Variance: Data Scientists exhibit the widest range of salary distribution, indicating a high level of variability based on experience, seniority, or specific industry sectors.
 
 * Market Outliers: While Data Analysts generally have a lower median salary, the presence of extreme outliers (up to $400k) suggests that specialized or high-level positions in this field can still reach top-tier compensation.
+
+<img src="Python-EU-Market-Analysis\assets\07_salary_comparison.png" alt='Salary comparison'>
+
+* Highest Paying Niche Skills: Specialized tools like svn lead the market with salaries reaching $400k, followed by deep learning frameworks such as pytorch and tensorflow which average around $175k.
+
+* Most In-Demand Skill Value: While looker is the most in-demand skill, it commands a median salary of approximately $110k, which is significantly lower than the top niche technical skills.
+
+* Core Technical Baseline: Standard analyst tools like SQL, Python, and Tableau show a consistent market value between $90k and $100k, establishing a strong earning baseline for the profession.
 
