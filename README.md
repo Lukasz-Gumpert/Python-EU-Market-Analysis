@@ -73,7 +73,7 @@ The primary objective of this specific analysis is to perform an Exploratory Dat
 ### Job Distribution by Country: 
 Identifying which European nations offer the highest volume of opportunities for data professionals.
 
-<img src="Python-EU-Market-Analysis\assets\01_Top_10_eu_countries.png" alt='EU countries with most data job postings'>
+<img src="Python-EU-Market-Analysis\assets\01_Top_10_eu_countries.png" alt='European countries with most data job postings'>
 
 * Market Leadership: The UK, France, and Italy dominate the European market, with the UK leading significantly at nearly 2,000 job postings.
 
@@ -84,7 +84,7 @@ Identifying which European nations offer the highest volume of opportunities for
 ## Benefits and Requirements
 Next, I explored key job requirements and benefits for Data Analyst roles using pie chart visualizations to identify industry standards.
 
-<img src="Python-EU-Market-Analysis\assets\02_Requirement_exploration.png" alt='Benefits chart'>
+<img src="Python-EU-Market-Analysis\assets\02_Requirement_exploration.png" alt='Requirements exploration.png'>
 
 * Dominance of Remote Work: Remote flexibility is nearly universal in the field, with 91.1% of job postings confirming that remote work is possible.
 
@@ -95,7 +95,7 @@ Next, I explored key job requirements and benefits for Data Analyst roles using 
 ### Top Employers: 
 Lastly identifying the most active companies currently hiring in the European market to highlight key industry players.
 
-<img src="Python-EU-Market-Analysis\assets\03_Top_10_companies.png" alt='Benefits chart'>
+<img src="Python-EU-Market-Analysis\assets\03_Top_10_companies.png" alt='Top 10 companies'>
 
 * Dominance of "Confidenziale": The largest share of postings comes from "Confidenziale" (over 500 listings), which typically represents confidential recruitment agencies masking client identities.
 
@@ -107,7 +107,7 @@ Lastly identifying the most active companies currently hiring in the European ma
 
 Next, I analyzed the most frequently requested skills for three core data roles to identify the essential technical competencies in the current market.
 
-<img src="Python-EU-Market-Analysis\assets\04_Skill_requested.png" alt='Benefits chart'>
+<img src="Python-EU-Market-Analysis\assets\04_Skill_requested.png" alt='Most requested skills'>
 
 * Universal Importance of SQL and Python: SQL is a foundational requirement across all roles, peaking at 56% for Data Engineers, while Python is the most critical skill for Data Scientists at 60%.
 
@@ -115,3 +115,46 @@ Next, I analyzed the most frequently requested skills for three core data roles 
 
 * Cloud and Infrastructure Focus: Data Engineering roles show a much higher demand for cloud platforms and big data tools, specifically Azure (35%), AWS (28%), and Spark (27%).
 
+## Technical Skill Trends in European markekt (03 - skill_trend.ipynb)
+
+In this part I analyzed the most frequently requested skills for three core data roles to identify the essential technical competencies in the current market.
+
+<img src="Python-EU-Market-Analysis\assets\05_skill_trend.png" alt='Skill trends'>
+
+* Universal Importance of SQL and Python: SQL remains the industry standard database language and is a foundational requirement across all data roles, while Python is highly sought-after for its flexibility in data cleaning and advanced analysis.
+
+* Distinct Analyst Toolkit: For Data Analysts, the technical stack is uniquely characterized by a blend of SQL for data retrieval and visualization or spreadsheet tools like Excel and Power BI for reporting.
+
+* Infrastructure and Advanced Analytics: Data Engineering and Scientist roles show a higher demand for specialized skills such as Cloud platforms (AWS/Azure) and Machine Learning, which are increasingly identified as key components for high-impact data professional toolkits.
+
+## Salary Distribution Analysis:
+
+This part focuses on yearly salary distribution across different data roles in Europe to understand the earning potential within each specialization. Additionaly, relationships between specific technical skills and their impact on compensation was added.
+
+<img src="Python-EU-Market-Analysis\assets\06_data_salary_distribution.png" alt='Salary distribution'>
+
+* Highest Median Salary: Data Engineers command the highest median yearly salary in Europe, followed closely by Data Scientists, both of which significantly outperform the Data Analyst role.
+
+* Significant Salary Variance: Data Scientists exhibit the widest range of salary distribution, indicating a high level of variability based on experience, seniority, or specific industry sectors.
+
+* Market Outliers: While Data Analysts generally have a lower median salary, the presence of extreme outliers (up to $400k) suggests that specialized or high-level positions in this field can still reach top-tier compensation.
+
+<img src="Python-EU-Market-Analysis\assets\07_salary_comparison.png" alt='Salary comparison'>
+
+* Highest Paying Niche Skills: Specialized tools like svn lead the market with salaries reaching $400k, followed by deep learning frameworks such as pytorch and tensorflow which average around $175k.
+
+* Most In-Demand Skill Value: While looker is the most in-demand skill, it commands a median salary of approximately $110k, which is significantly lower than the top niche technical skills.
+
+* Core Technical Baseline: Standard analyst tools like SQL, Python, and Tableau show a consistent market value between $90k and $100k, establishing a strong earning baseline for the profession.
+
+## Final Strategic Summary: Optimal Skills & Salary Analysis:
+
+<img src="Python-EU-Market-Analysis\assets\08_optimal_skills.png" alt='Optimal skills'>
+
+To conclude my research, I have integrated all previously collected data to identify the most strategic technical skills based on their market demand and salary potential.
+
+* Optimal High-Value Skills: Python and Tableau represent the "sweet spot" in the market, offering high median salaries (above $100k) while remaining in high demand among approximately 25-35% of job postings.
+
+* Essential Foundations vs. Niche Earnings: While SQL is the most widely required skill (42% of jobs), it commands a more moderate baseline salary of $90k; conversely, niche tools like Looker offer the highest median pay ($112k) despite appearing in fewer than 10% of offers.
+
+* Strategic Specialization: For those seeking the highest possible compensation, specialized engineering and cloud skills like SVN, PyTorch, and TensorFlow can push salaries toward the $175k–$400k range, though they are less frequent in general analyst roles.
