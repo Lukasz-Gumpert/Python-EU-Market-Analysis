@@ -81,10 +81,25 @@ Identifying which European nations offer the highest volume of opportunities for
 
 * Tech Hub Density: While smaller nations like Luxembourg and the Netherlands have lower absolute counts (~500), they show high demand relative to their market size.
 
-### Top Employers: 
-Identifying the most active companies currently hiring in the European market to highlight key industry players.
-
 ## Benefits and Requirements
 Next, I explored key job requirements and benefits for Data Analyst roles using pie chart visualizations to identify industry standards.
 
 <img src="Python-EU-Market-Analysis\assets\02_Requirement_exploration.png" alt='Benefits chart'>
+
+* Dominance of Remote Work: Remote flexibility is nearly universal in the field, with 91.1% of job postings confirming that remote work is possible.
+
+* Education Requirements: A university degree remains a significant barrier to entry, as it is required by 69.4% of employers.
+
+* Standardized Benefits: Health insurance is a highly consistent offering across the market, included in 89.0% of the analyzed job descriptions.
+
+### Top Employers: 
+Lastly identifying the most active companies currently hiring in the European market to highlight key industry players.
+
+<img src="Python-EU-Market-Analysis\assets\03_Top_10_companies.png" alt='Benefits chart'>
+
+* Dominance of "Confidenziale": The largest share of postings comes from "Confidenziale" (over 500 listings), which typically represents confidential recruitment agencies masking client identities.
+
+* Recruitment Agency Presence: Professional staffing firms like JobLeads GmbH, Hays, and Randstad feature prominently, indicating that a significant portion of the market is managed by third-party recruiters.
+
+* Key Corporate Employers: Major industry players such as Allegro, Banco Santander, and SAFRAN emerge as the top direct corporate employers actively seeking data talent.
+
