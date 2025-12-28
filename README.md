@@ -117,8 +117,6 @@ Next, I analyzed the most frequently requested skills for three core data roles 
 
 ## Technical Skill Trends in European markekt (03 - skill_trend.ipynb)
 
-Technical Skill Requirements:
-
 In this part I analyzed the most frequently requested skills for three core data roles to identify the essential technical competencies in the current market.
 
 <img src="Python-EU-Market-Analysis\assets\05_skill_trend.png" alt='Skill trends'>
@@ -131,7 +129,7 @@ In this part I analyzed the most frequently requested skills for three core data
 
 ## Salary Distribution Analysis:
 
-Finally, I analyzed the yearly salary distribution across different data roles in Europe to understand the earning potential within each specialization. Additionaly, I focued on relationships between specific technical skills and their impact on compensation to identify the most lucrative paths for Data Analysts.
+This part focuses on yearly salary distribution across different data roles in Europe to understand the earning potential within each specialization. Additionaly, relationships between specific technical skills and their impact on compensation was added.
 
 <img src="Python-EU-Market-Analysis\assets\06_data_salary_distribution.png" alt='Salary distribution'>
 
@@ -149,3 +147,14 @@ Finally, I analyzed the yearly salary distribution across different data roles i
 
 * Core Technical Baseline: Standard analyst tools like SQL, Python, and Tableau show a consistent market value between $90k and $100k, establishing a strong earning baseline for the profession.
 
+## Final Strategic Summary: Optimal Skills & Salary Analysis:
+
+<img src="Python-EU-Market-Analysis\assets\08_optimal_skills.png" alt='Optimal skills'>
+
+To conclude my research, I have integrated all previously collected data to identify the most strategic technical skills based on their market demand and salary potential.
+
+* Optimal High-Value Skills: Python and Tableau represent the "sweet spot" in the market, offering high median salaries (above $100k) while remaining in high demand among approximately 25-35% of job postings.
+
+* Essential Foundations vs. Niche Earnings: While SQL is the most widely required skill (42% of jobs), it commands a more moderate baseline salary of $90k; conversely, niche tools like Looker offer the highest median pay ($112k) despite appearing in fewer than 10% of offers.
+
+* Strategic Specialization: For those seeking the highest possible compensation, specialized engineering and cloud skills like SVN, PyTorch, and TensorFlow can push salaries toward the $175k–$400k range, though they are less frequent in general analyst roles.
