@@ -93,7 +93,7 @@ plt.ylabel('Country name')
 
 * Tech Hub Density: While smaller nations like Luxembourg and the Netherlands have lower absolute counts (~500), they show high demand relative to their market size.
 
-## Benefits and Requirements
+## Benefits and Requirements:
 Next, I explored key job requirements and benefits for Data Analyst roles using pie chart visualizations to identify industry standards.
 
 ```py
@@ -148,7 +148,7 @@ plt.ylabel('Company name')
 
 * Key Corporate Employers: Major industry players such as Allegro, Banco Santander, and SAFRAN emerge as the top direct corporate employers actively seeking data talent.
 
-## Technical Skill Requirements (02 - Skills_Count.ipynb)
+## Technical Skill Requirements:
 
 Next, I analyzed the most frequently requested skills for three core data roles to identify the essential technical competencies in the current market.
 
@@ -179,7 +179,7 @@ for i,job_title in enumerate(data_list):
 
 * Cloud and Infrastructure Focus: Data Engineering roles show a much higher demand for cloud platforms and big data tools, specifically Azure (35%), AWS (28%), and Spark (27%).
 
-## Technical Skill Trends in European markekt:
+## Technical Skill Trends in European market:
 
 In this part I analyzed the most frequently requested skills for three core data roles to identify the essential technical competencies in the current market.
 
